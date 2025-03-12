@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url(image.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+}
+
+.counter {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow:black;
+}
+
+h1 {
+    font-size: 1.5em;
+   color: rgb(206, 34, 34);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(210, 105, 30);
+}
+
+p {
+    color: rgb(210, 105, 30);
+}
+#countDisplay {
+    font-size: 2em;
+    margin: 20px 0;
+    
+}
+
+#increaseBtn {
+    background-color: #4CAF50;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#decreaseBtn{
+    background-color: #4CAF50;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#resetBtn{
+    background-color: #4CAF50;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;  
+}
+
+button:hover {
+    background-color: #271685; 
+}
+
+
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #countDisplay {
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 8px 12px;
+        margin: 4px;
+    }
+}
